@@ -1,0 +1,38 @@
+{
+  "name": "mcp-server-and-client",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "server:build": "tsc",
+    "server:build:watch": "tsc --watch",
+    "server:dev": "tsx src/server.ts",
+    "server:inspect": "set DANGEROUSLY_OMIT_AUTH=true && npx @modelcontextprotocol/inspector npm run server:dev",
+    "client:dev": "tsx src/client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.14.3",
+    "@types/node": "^24.10.9",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.22",
+    "@inquirer/prompts": "^7.10.1",
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "ai": "^4.3.19",
+    "dotenv": "^16.6.1",
+    "zod": "^3.25.76"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DucLe-2005/mcp-server-and-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DucLe-2005/mcp-server-and-client/issues"
+  },
+  "homepage": "https://github.com/DucLe-2005/mcp-server-and-client#readme",
+  "description": ""
+}
