@@ -8,21 +8,29 @@ This is my personal attempt to learn the Model Context Protocol (MCP) by buildin
 
 ### Install dependencies
 
-`npm install         `
+```bash
+npm install
+```
 
 ### Build the server
 
-`npm run server:build   `
+```bash
+npm run server:build
+```
 
 ### (Optional) Watch and rebuild on changes
 
-`npm run server:build:watch     `
+```bash
+npm run server:build:watch
+```
 
 ### Environment variables
 
 Create a `.env` file in the project root:
 
-`GEMINI_API_KEY=your_gemini_api_key_here`
+```bash
+GEMINI_API_KEY=your_gemini_api_key_here
+```
 
 ---
 
@@ -30,11 +38,15 @@ Create a `.env` file in the project root:
 
 ### Server (dev, TypeScript)
 
-`npm run server:dev`
+```bash
+npm run server:dev
+```
 
 ### Client (CLI)
 
-`npm run client:dev      `
+```bash
+npm run client:dev
+```
 
 - `server:build:watch` keeps the compiled `build/server.js` in sync as you edit `src/server.ts`.
 
